@@ -1,0 +1,48 @@
+#banner .banner-box{
+    background-image:linear-gradient(rgba(22, 22, 22, 0.8),rgba(19, 18, 18, 0.8)), url("../ecommerce-mrewel/images/shoes-banner.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    min-width: 580px;
+    background-position:  right 60%;
+
+    align-items: flex-start;
+    height: 40vh;
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#main-home{
+    background-image: url("../ecommerce-mrewel/hero-banner.jpg");
+    width: 100%;
+    height: 40vh;
+    background-position:  bottom 80% left 80%;
+    background-size: cover;
+}
+#main-home h2{
+    font-size: 40px;
+    color: black;
+    
+}
+#main-home span{
+    color:blue;
+}
+#banner .banner-box h4{
+    font-size: 60px;
+    color: white;
+    font-weight: 800;
+    margin-left: 10%;
+}
+.description h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+.description p{
+    text-align: center;
+    color: blue;
+    font-size: larger;
+}
